@@ -1,8 +1,15 @@
+/* inzio nav */
+.navbar-brand img {
+    height: 100%;
+}
 
-
+.navbar-right button {
+    margin-top: 11.8px;
+}
 
 #banner {
     background-color: #0060ff;
+    margin-top: 50px;
 }
 
 #partner,
