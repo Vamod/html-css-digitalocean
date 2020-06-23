@@ -5,10 +5,30 @@
     background-color: #0060ff;
 }
 
-#partner {
+#partner,
+#designed_dev,
+#rockerbox  {
     background-color: #f3f5f9;
 }
 
 #deploy {
     background-color: white;
+}
+
+#countries,
+#get_started {
+ background-color: #00239e;
+ color: white;
+}
+
+footer {
+    background-color: #031c4e;
+}
+
+.boo_rockerbox {
+    background-color: white;
+}
+
+.boo_rockerbox img {
+    display: inline-block;
 }
