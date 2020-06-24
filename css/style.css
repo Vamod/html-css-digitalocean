@@ -1,12 +1,3 @@
-/* inzio nav */
-.navbar-brand img {
-    height: 100%;
-}
-
-.navbar-right button {
-    margin-top: 11.8px;
-}
-
 #banner {
     background-color: #0060ff;
     margin-top: 50px;
@@ -31,6 +22,24 @@
 footer {
     background-color: #031c4e;
 }
+
+/* inizio nav */
+.boo_navbar {
+    max-height:50px;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar-right button {
+    margin-top: 11.8px;
+}
+
+/* fine navbar */
+/* inizio banner */
+
+
 
 .boo_rockerbox {
     background-color: white;
