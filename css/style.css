@@ -56,12 +56,27 @@ section {
 /* fine proprietà comuni */
 
 /* * inizio nav */
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li {
+    color: #1f3562;
+}
+
 .navbar-brand img {
     height: 100%;
 }
 
 .navbar-right button {
-    margin-top: 11.8px;
+    margin-top: 11.425px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 1px solid #398bff;
+    color: #398bff;
+    background-color: white;
 }
 
 /* fine navbar */
@@ -88,6 +103,16 @@ h1 {
     padding: 20px;
 }
 
+#google-btn {
+    position: relative;
+}
+
+#google-btn img {
+    width: 20px;
+    position: absolute;
+    left: 20px;
+}
+
 #deploy {
     background-color: white;
 }
@@ -102,24 +127,52 @@ h1 {
     height: 30px;
 }
 
-.boo_chevron-left,
-.boo_chevron-right {
+/* inizio designed_dev*/
+
+.boo_pic-box {
+    width: 50%;
+    margin: 0 auto;
     position: relative;
+}
+
+.boo_pic-box img {
+    max-width: 100%;
+    display: inline-block;
 }
 
 #chevron-left,
 #chevron-right  {
-    display: block;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
 }
 
+#chevron-left {
+    left: -80px;
+}
 
+#chevron-right {
+    right: -80px;
+}
+/* fine designed_dev */
 
+/* inizio country */
 #countries {
     background: rgb(0,71,197);
     background: linear-gradient(180deg, rgba(0,71,197,1) 13%, rgba(0,34,157,1) 100%);
     color: white;
+}
+
+
+
+#countries .boo_underline {
+    border-bottom: 1px solid white;
+    border-width: 90%;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-6 {
+    padding: 20px 40px;
 }
 
 #get_started {

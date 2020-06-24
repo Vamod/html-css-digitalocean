@@ -26,8 +26,8 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                      <li class="dropdown">
+                  <ul class="nav navbar-nav boo_navbar-text">
+                      <li class="dropdown boo_navbar-text">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="#">Action</a></li>
@@ -52,7 +52,7 @@
                         <li><a href="#">One more separated link</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">pricing</a></li>
+                    <li><a class="boo_navbar-text"href="#">pricing</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">docs</a></li>
@@ -76,13 +76,13 @@
         <section id="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-7 col-lg-7">
                         <div class="main-text">
                             <h1>The simplest cloud platform for developers & teams</h1>
                             <p>Deploy, manage, and scale cloud applications faster and more effciently on DigitalOcean. We make mananging infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-5 col-lg-5">
                         <div id="boo_jumbotron" class="jumbotron text-center">
                             <h3>Deploy you app in seconds. <a href="#">Get started now</a></h3>
                             <form class="form-horizontal">
@@ -103,7 +103,7 @@
                               </div>
                               <div class="form-group">
                                 <div class="col-sm-12">
-                                 <button type="button" class="btn btn-default btn-lg btn-block">Sign up with google</button>
+                                 <button id="google-btn"type="button" class="btn btn-default btn-lg btn-block"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt=""> Sign up with google</button>
                                 </div>
                               </div>
                               <p>By signing up you agree to the <a href="#">Terms of service</a></p>
@@ -202,16 +202,10 @@
                         <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_chevron-left">
-                        <span id="chevron-left" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        <img class="img-responsive" src="https://images.prismic.io/www-static/ba01040c-a47a-43c9-995d-4ed05a5dc4c9_screenshot-create-kubernetes-cluster-4a930955.jpg?auto=compress,format" alt="">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_chevron-right">
-                        <span id="chevron-right" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    </div>
+                <div class="boo_pic-box text-center">
+                    <span id="chevron-left" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span id="chevron-right" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <img class="img-responsive" src="https://images.prismic.io/www-static/ba01040c-a47a-43c9-995d-4ed05a5dc4c9_screenshot-create-kubernetes-cluster-4a930955.jpg?auto=compress,format" alt="">
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -262,142 +256,145 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
+
 
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 boo_underline">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7 boo_underline">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 boo_underline">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                                 <span>AMS2</span>
                             </div>
-                            <div class="col-xs-4 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
-                                <p>Amsterdam, Netherlands</p>
+                            <div class="col-xs-7 col-sm-7 col-md-7  col-lg-7">
+                                <span>Amsterdam, Netherlands</span>
                             </div>
-                            <div class="col-xs-3 col-x2-offset-3 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                 <a href="#">Test Speed ></a>
                             </div>
                         </div>
 
+
                     </div>
+
                 </div>
             </div>
         </section>
