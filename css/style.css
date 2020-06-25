@@ -89,6 +89,17 @@ h5 {
     background-color: #f3f5f9;
 }
 
+#partner,
+#deploy,
+#designed_dev,
+#feature-business,
+#countries,
+#rockerbox,
+footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .text-center-xs {
     text-align: center;
 }
@@ -207,10 +218,6 @@ h1 {
 /* fine banner */
 
 /* inizio partner */
-#partner {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
 
 #partner img {
     display: inline-block;
@@ -224,11 +231,6 @@ h1 {
 /* fine partner */
 
 /* inizio deploy */
-
-#deploy {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
 
 .boo_padding-deploy {
     padding-top: 15px;
@@ -266,11 +268,6 @@ h1 {
 
 /* inizio designed_dev*/
 
-#designed_dev {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
 #designed_dev h2 {
     color: #031c4e;
 }
@@ -299,11 +296,6 @@ h1 {
 
 /* fine designed_dev */
 /* inizio feature-business */
-
-#feature-business {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
 
 #feature-business h2 {
     color: #031c4e;
@@ -352,11 +344,6 @@ h1 {
 /* fine countries */
 /* inizio rockerbox */
 
-#rockerbox {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
 #rockerbox h2 {
     color: #031c4e;
     padding-bottom: 30px;
@@ -401,8 +388,6 @@ h1 {
 /* fine get_started */
 footer {
     background-color: #031c4e;
-    padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 footer img {
