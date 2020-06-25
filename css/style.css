@@ -97,7 +97,13 @@ h5 {
     color: #5c6a88;
 }
 
+.text-blue {
+    color: #031c4e;
+}
 
+.f_700 {
+    font-weight: 700;
+}
 
 #chevron-left,
 #chevron-right  {
@@ -114,6 +120,13 @@ h5 {
 #chevron-right {
     right: -80px;
 }
+
+.boo_pic-box {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
 /* fine proprietà comuni */
 
 /* * inizio nav */
@@ -178,7 +191,7 @@ h1 {
 }
 
 #boo_jumbotron h2 {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 40px;
 }
 
@@ -272,11 +285,6 @@ h1 {
     padding-bottom: 10px;
 }
 
-.boo_pic-box {
-    width: 50%;
-    margin: 0 auto;
-    position: relative;
-}
 
 .boo_pic-box img {
     max-width: 100%;
@@ -286,6 +294,7 @@ h1 {
 .glyphicon-option-horizontal {
     font-size: 30px;
     color: #006aff;
+    padding-top: 20px;
 }
 
 /* fine designed_dev */
@@ -319,16 +328,14 @@ h1 {
     background: rgb(0,71,197);
     background: linear-gradient(180deg, rgba(0,71,197,1) 13%, rgba(0,34,157,1) 100%);
     color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
-
-
 
 #countries .boo_underline {
     border-bottom: 1px solid white;
     border-width: 90%;
-
 }
-
 
 #countries .padding-countries {
     padding: 10px 40px;
@@ -343,23 +350,55 @@ h1 {
     padding-bottom: 10px;
 }
 /* fine countries */
+/* inizio rockerbox */
+
+#rockerbox {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#rockerbox h2 {
+    color: #031c4e;
+    padding-bottom: 30px;
+}
+
+#rockerbox .boo_pic-box {
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#rockerbox .boo_pic-box p {
+    padding-top: 20px;
+}
+
+.rocker-padding {
+    padding-bottom: 20px;
+}
+
+/* fine rockerbox */
+
+/* inizio get_started */
 
 #get_started {
- background-color: #00239e;
- color: white;
+     background-color: #00239e;
+     color: white;
+     padding-top: 64px;
+     padding-bottom: 50px;
 }
 
+#get_started h2 {
+    padding-bottom: 15px;
+}
+
+#get_started button {
+    color: #006aff;
+    background-color: white;
+    font-size: 14px;
+    padding: 8px 14px;
+}
+
+/* fine get_started */
 footer {
     background-color: #031c4e;
-}
-
-
-
-
-.boo_rockerbox {
-    background-color: white;
-}
-
-.boo_rockerbox img {
-    display: inline-block;
 }
