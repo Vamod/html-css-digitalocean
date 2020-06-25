@@ -401,4 +401,36 @@ h1 {
 /* fine get_started */
 footer {
     background-color: #031c4e;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+footer img {
+    padding-bottom: 10px;
+}
+
+footer h5 {
+    color: white;
+}
+
+footer li a {
+    color: #79859e;
+}
+ footer i,
+ .copyright,
+ .proudly {
+     color: #7a859d;
+}
+
+.proudly {
+    padding-bottom: 10px;
+}
+
+footer li {
+    line-height: 25px;
+}
+
+footer i {
+    font-size: 20px;
+    padding-right: 8px;
 }
