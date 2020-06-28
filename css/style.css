@@ -37,34 +37,7 @@
     }
 }
 /* fine collaso barra */
-/* media query per banner */
 
-@media screen and (max-width: 767px) {
-
-    #banner {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-
-}
-
-@media screen and (min-width: 768px) {
-
-    .h_800 {
-        height: 800px;
-    }
-
-    .vertical-middle {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .text-left-sm {
-        text-align:left;
-    }
-
-}
 
 /* proprietà comuni */
 body {
@@ -221,6 +194,7 @@ h1 {
 
 #partner img {
     display: inline-block;
+    max-width: none;
 }
 
 #partner h5 {
@@ -418,4 +392,48 @@ footer li {
 footer i {
     font-size: 20px;
     padding-right: 8px;
+}
+
+/* media query*/
+
+@media screen and (max-width: 767px) {
+
+    #banner {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    #countries span {
+        font-size: 10px;
+    }
+
+    #countries a {
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .h_800 {
+        height: 800px;
+    }
+
+    .vertical-middle {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .text-left-sm {
+        text-align:left;
+    }
+
 }
